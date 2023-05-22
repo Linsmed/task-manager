@@ -17,13 +17,13 @@ const SingleItem = ({ item, removeItem, editItem }) => {
         {' '}
         {item.name}
       </p>
-      <buttons
+      <button
         className="btn remove-btn"
         type="button"
         onClick={() => removeItem(item.id)}
       >
         delete
-      </buttons>
+      </button>
     </div>
   );
 };
